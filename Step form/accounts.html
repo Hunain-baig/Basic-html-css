@@ -21,10 +21,20 @@
 
 }
 
-div{
+.div{
     text-align: center;
-    font-size: larger;
+    width: 760px;
+    padding-left: 25%;
 }
+
+.divv{
+    text-align: center;
+}
+
+.fieldset{
+    height: 400px;
+}
+
 
 </style>
 
@@ -32,13 +42,13 @@ div{
 
 <body>
 
-   <br><div><span class="one"> 1: Account &nbsp;&nbsp;</span><span class="two">Step 2: Personal Details: &nbsp;&nbsp;Step 3: Your Review  </span></div><br>
+   <br><div class="divv"><span class="one"> 1: Account &nbsp;&nbsp;</span><span class="two">Step 2: Personal Details: &nbsp;&nbsp;Step 3: Your Review  </span></div><br>
    
-   <div>
+   <div class="div">
     <form>
-    <fieldset>
+    <fieldset class="fieldset">
             
-    <legend>Account</legend>
+    <legend>Account</legend><br><br><br>
     <label for="Email"><b>Email Address</b></label><br>
     <input type="email" id="Email" placeholder="Enter Email"><br><br>
 
